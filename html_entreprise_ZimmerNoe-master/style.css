@@ -1,0 +1,50 @@
+html{
+    background-image:url(image/Map011.png);
+}
+
+#zone{
+    background-image:url(image/zonetexte.png);
+    text-align: center;
+}
+#titre{
+    text-align: center;
+    width:40%;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+body{
+    text-align: center;
+}
+
+#menu{
+    text-align: left;
+    border: 5px inset;
+    border-color: black;
+    border-radius:32px 32px 32px 32px;
+    background-color:#ffacf1;
+    box-shadow: 12px 12px 12px rgba(0,0,0,0.4);
+    width: 20%;
+    margin-left: 0 auto;
+}
+
+section{
+    text-align: center;
+    border: 2px inset;
+    border-color: black;
+    border-radius:32px 32px 32px 32px;
+    background-color:#ffacf1;
+    box-shadow: 12px 12px 12px rgba(0,0,0,0.4);
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#conteneur {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
